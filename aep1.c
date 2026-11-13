@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// 1. DEFINIÇÃO DOS TIPOS DE DADOS (Devem ficar fora das funções)
+// 1. DEFINIÃ‡ÃƒO DOS TIPOS DE DADOS (Devem ficar fora das funÃ§Ãµes)
 typedef enum { 
     PLANEJADA, 
     REALIZADA, 
@@ -24,7 +24,7 @@ typedef struct {
     Situacao situacao;
 } Acao;
 
-// 2. PROTÓTIPOS DAS FUNÇÕES (Avisa ao compilador que elas existem)
+// 2. PROTÃ“TIPOS DAS FUNÃ‡Ã•ES (Avisa ao compilador que elas existem)
 void cadastrar();
 void listar();
 void pesquisar();
@@ -32,7 +32,7 @@ void atualizar();
 void registrarResultado();
 void resumo();
 
-// 3. FUNÇÃO PRINCIPAL (Apenas uma no programa inteiro)
+// 3. FUNÃ‡ÃƒO PRINCIPAL (Apenas uma no programa inteiro)
 int main(int argc, char *argv[]) {
     int opcao;
     
@@ -78,34 +78,34 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-// 4. IMPLEMENTAÇÃO DAS FUNÇÕES (Onde você vai escrever a lógica de cada uma)
+// 4. IMPLEMENTAÃ‡ÃƒO DAS FUNÃ‡Ã•ES (Onde vocÃª vai escrever a lÃ³gica de cada uma)
 void cadastrar() {
     printf("\n--- Funcionalidade: Cadastrar Acao ---\n");
-    // Escreva o código de cadastro aqui
+    // Escreva o cÃ³digo de cadastro aqui
 }
 
 void listar() {
     printf("\n--- Funcionalidade: Listar Acoes ---\n");
-    // Escreva o código de listagem aqui
+    // Escreva o cÃ³digo de listagem aqui
 }
 
 void pesquisar() {
     printf("\n--- Funcionalidade: Pesquisar Acao ---\n");
-    // Escreva o código de pesquisa aqui
+    // Escreva o cÃ³digo de pesquisa aqui
 }
 
 void atualizar() {
     printf("\n--- Funcionalidade: Atualizar Acao ---\n");
-    // Escreva o código de atualização aqui
+    // Escreva o cÃ³digo de atualizaÃ§Ã£o aqui
 }
 
 void registrarResultado() {
     printf("\n--- Funcionalidade: Registrar Resultado ---\n");
-    // Escreva o código de registro aqui
+    // Escreva o cÃ³digo de registro aqui
 }
 
 void resumo() {
     printf("\n--- Funcionalidade: Resumo Geral ---\n");
-    // Escreva o código do resumo aqui
+    // Escreva o cÃ³digo do resumo aqui
 }
 
